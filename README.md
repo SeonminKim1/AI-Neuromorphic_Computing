@@ -1,6 +1,6 @@
 # Neuromorphic_Computing
 Neuromorphic Computing 연구
-
+Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
 
 
 ### 1. 뉴로모픽 ONNX-ML 기본 (20.06.15)
