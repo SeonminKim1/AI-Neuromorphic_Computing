@@ -24,3 +24,13 @@ Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
   
 - 지능형컴포넌트 레지스트리 (2) : ONNX Log 관리
   - 파일관리하면서 발생하는 Event 에 대한 Log 남기기
+
+### 4. 지능형 컴포넌트 레지스트리 v1.0 완성 (20.8.4)
+#### 지능형 컴포넌트 레지스트리 기능 구현 
+- (1) ONNX 파일 리스트 보기
+- (2) ONNX 파일 Download 하기
+- (3) ONNX 파일 Upload 하기
+- (4) ONNX 파일 Netron 이용 시각화하기
+  - Python에 Netron 설치 후 python 코드 이용 cmd 명령어 실행 방식
+- 결과 링크 : [https://github.com/neurom-iot/onnx-registry]
+
