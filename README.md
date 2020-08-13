@@ -6,7 +6,7 @@ Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
 ### 1. 뉴로모픽 ONNX-ML 기본 (20.06.15)
 - ONNX, ONNX Runtime, Scikit-learn to ONNX 조사
 - Protobuf 공부
-- ONNX Runtime Version 1.0 / 최신버전 Install 실패
+- ONNX Runtime Version 1.0 / 최신버전 Install 실패 / 최신버전에는 Pytorch 상으로 Training 기능이 
 - Scikit Learn으로 Model Training 
 - Skl2learn 이용하여 .ONNX Model Protobuf 형식으로 변환(Writing)
 - Netron 이용 Visualizing
