@@ -34,3 +34,15 @@ Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
   - Python에 Netron 설치 후 python 코드 이용 cmd 명령어 실행 방식
 - 결과 링크 : [https://github.com/neurom-iot/onnx-registry]
 
+### 5. Nengo, Nengo-DL / ONNX Runtime 공부 정리 및 내용 회의 및 향후방향 정리 (8.14 금)
+
+#### -- ONNX Runtime --
+- (1) .onnx 파일 구조를 어떻게 읽어오는지 (key-value로 구성되어있는 protobuf를 어떻게 읽어오는지?) 
+- (2) 읽어온 후 ONNX-RUNTIME 추론시 onnx-runtime 클래스 중 어디를 참조하는지-아마 nodeArg)
+
+#### -- Nengo –
+- (1) Nengo-dl 사용법 공부 (API)
+- (2) Nengo-dl 에서 Tensorflow를 이용한 LIF 작동 공부
+
+
+
