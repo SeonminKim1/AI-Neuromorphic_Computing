@@ -1,4 +1,7 @@
 # Neuromorphic_Computing
+- 뉴로모픽 아키텍처 기반 자율형 IoT 응용 통합개발환경
+- (Integrated Development Environment for Autonomic IoT Applications based on Neuromorphic Architecture)
+
 Neuromorphic Computing 연구
 Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
 
