@@ -48,4 +48,7 @@ Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
 - (2) Nengo-dl 에서 Tensorflow를 이용한 LIF 작동 공부
 
 
-
+### 핵심 참고 문헌
+- https://www.nengo.ai/nengo-dl/examples/from-tensorflow.html // nengo-DL Tensorflow와 코드비교
+- https://www.nengo.ai/nengo-dl/simulator.html // nengo-dl simulator서 data 확인
+- https://www.nengo.ai/nengo-dl/reference.html // nengo-dl api document
