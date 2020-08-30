@@ -52,3 +52,5 @@ Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
 - https://www.nengo.ai/nengo-dl/examples/from-tensorflow.html // nengo-DL Tensorflow와 코드비교
 - https://www.nengo.ai/nengo-dl/simulator.html // nengo-dl simulator서 data 확인
 - https://www.nengo.ai/nengo-dl/reference.html // nengo-dl api document
+- https://forum.nengo.ai/t/saving-the-model-after-training-in-nengo-core/1176/5 // nengo 모델 가중치 저장하고서, 불러와서 반영하는 법.
+- https://github.com/microsoft/onnxruntime/blob/master/docs/Versioning.md // onnxruntime, onnx version 호환 
