@@ -55,3 +55,7 @@ Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
 - https://forum.nengo.ai/t/saving-the-model-after-training-in-nengo-core/1176/5 // nengo 모델 가중치 저장하고서, 불러와서 반영하는 법.
 - https://github.com/microsoft/onnxruntime/blob/master/docs/Versioning.md // onnxruntime, onnx version 호환 
 - https://github.com/microsoft/onnxruntime/blob/master/docs/AddingCustomOp.md // onnxruntime adding new operator
+
+### 6. onnxruntime 관련 자체 정리 (20.09.09)
+- (1) ONNX Runtime의 Inference 과정 (ONNX 연산자 호출 및 Load 과정)
+- (2) Custom ONNX 연산자를 만들어서 추가하는 방법(protobuf로 감싸서 구조 정의하는 것과는 다름)
