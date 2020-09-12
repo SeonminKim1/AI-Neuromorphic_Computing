@@ -59,3 +59,20 @@ Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
 ### 6. onnxruntime 관련 자체 정리 (20.09.09)
 - (1) ONNX Runtime의 Inference 과정 (ONNX 연산자 호출 및 Load 과정)
 - (2) Custom ONNX 연산자를 만들어서 추가하는 방법(protobuf로 감싸서 구조 정의하는 것과는 다름)
+- (3) (09.10 회의 결론)
+   - ONNX Runtime 은 C API 를 참조하는 것으로 확인/ pybind_state.py, ONNXRuntime 1.0 github 파일 폴더에서 py 파일안에 C관련 API가 있음4
+   - pybind 로 연결시키는 것으로 파악.
+   
+### 7. ONNX 레지스트리 업데이트 & ONNX 모델 추론 시스템 구현
+- (1) ONNX 레지스트리
+  - download, visualization 버튼 이동
+    - (case1) 목록 리스트 이름 클릭시 - 새로운 창 뜨고 download나 visualization
+    - (case2) 목록 리스트 안에 항목으로 download or visualization 버튼
+  - visualization 화면에서, 상대에 그래프 정보 관련 출력 (Visualization 화면 꾸미기)
+    - Prediction REST API
+ - (2) ONNX 모델 추론 시스템 구현
+  - 해당 ONNX 판별식(API) 짜기
+    - ML, DL / SNN 구분 API
+  - 각 모델 Type 따라 추론 시스템 구현
+    - SNN -> Nengo -> Nengo Simulator ==> 1차년도 Upgrade
+    - DL / ML -> ONNX Runtime ==> ONNX Runtime - run() 메소드 이용
