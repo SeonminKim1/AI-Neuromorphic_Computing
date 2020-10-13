@@ -76,3 +76,13 @@ Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
   - 각 모델 Type 따라 추론 시스템 구현
     - SNN -> Nengo -> Nengo Simulator ==> 1차년도 Upgrade
     - DL / ML -> ONNX Runtime ==> ONNX Runtime - run() 메소드 이용
+
+### 8. 7번내용 심화
+- (1) ONNX 레지스트리
+    - download, visualization
+    - 추론 결과 반환하는 RESTFul API
+- (2) 판별식 update
+    - 1차구분 : SNN 인지 아닌지 (SNN 일경우 Nengo 모델로 변환) - 활성화함수로 체크
+    - 2차구분 : SNN이 아닌경우 ML인지, DL인지 연산자 형태로 구분 - 연산자로 체크
+- (3) .NPZ 파일 분석 및 Nengo 가중치 ONNX 삽입
+
