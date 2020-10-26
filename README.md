@@ -86,3 +86,11 @@ Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
     - 2차구분 : SNN이 아닌경우 ML인지, DL인지 연산자 형태로 구분 - 연산자로 체크
 - (3) .NPZ 파일 분석 및 Nengo 가중치 ONNX 삽입
 
+### 9. KCS 2020 논문투고 및 마무리
+- (1) ONNX 레지스트리 관리
+  - 메인기능 : Upload 기능, Download 기능, 목록 View 기능, 모델 Visualization 기능
+- (2) ONNX 모델 판별법
+  - 판별기준 1차, 2차 정리 완료
+- (3) .NPZ 파일 분석 및 Nengo <-> ONNX 모델 가중치 교환
+  - Keras 기반의 모델에 .npz 가중치 삽입 및 교환
+- (4) KCS 2020 논문 투고 완료
