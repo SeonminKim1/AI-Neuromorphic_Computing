@@ -3,8 +3,7 @@
 - (Integrated Development Environment for Autonomic IoT Applications based on Neuromorphic Architecture)
 
 Neuromorphic Computing 연구
-Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
-
+Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현, 최현웅
 
 ### 1. 뉴로모픽 ONNX-ML 기본 (20.06.15)
 - ONNX, ONNX Runtime, Scikit-learn to ONNX 조사
@@ -47,7 +46,6 @@ Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
 - (1) Nengo-dl 사용법 공부 (API)
 - (2) Nengo-dl 에서 Tensorflow를 이용한 LIF 작동 공부
 
-
 ### 핵심 참고 문헌
 - https://www.nengo.ai/nengo-dl/examples/from-tensorflow.html // nengo-DL Tensorflow와 코드비교
 - https://www.nengo.ai/nengo-dl/simulator.html // nengo-dl simulator서 data 확인
@@ -62,7 +60,8 @@ Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
 - (3) (09.10 회의 결론)
    - ONNX Runtime 은 C API 를 참조하는 것으로 확인/ pybind_state.py, ONNXRuntime 1.0 github 파일 폴더에서 py 파일안에 C관련 API가 있음4
    - pybind 로 연결시키는 것으로 파악.
-   
+   - ONNX Runtime 에 SNN관련 자체 연산자를 추가하는 것은 불가로 판단
+
 ### 7. ONNX 레지스트리 업데이트 & ONNX 모델 추론 시스템 구현
 - (1) ONNX 레지스트리
   - download, visualization 버튼 이동
@@ -86,11 +85,11 @@ Member : ISYSLAB - 김선민, 진선미, 이지영, 한병현
     - 2차구분 : SNN이 아닌경우 ML인지, DL인지 연산자 형태로 구분 - 연산자로 체크
 - (3) .NPZ 파일 분석 및 Nengo 가중치 ONNX 삽입
 
-### 9. KCS 2020 논문투고 및 마무리
+### 9. 최종 마무리 및 KCS 2020 논문투고
 - (1) ONNX 레지스트리 관리
   - 메인기능 : Upload 기능, Download 기능, 목록 View 기능, 모델 Visualization 기능
 - (2) ONNX 모델 판별법
   - 판별기준 1차, 2차 정리 완료
 - (3) .NPZ 파일 분석 및 Nengo <-> ONNX 모델 가중치 교환
   - Keras 기반의 모델에 .npz 가중치 삽입 및 교환
-- (4) KCS 2020 논문 투고 완료
+- (4) KCS 2020 논문 투고 완료(10.26)
