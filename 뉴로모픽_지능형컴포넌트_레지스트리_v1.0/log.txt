@@ -1,3 +1,0 @@
-(20-08-03 01:59:18) | Upload_Success      | ex_model3.onnx | 127.0.0.1 | C:\Users\urse\PycharmProjects\untitled\Intelligent_Component_registry
-(20-08-03 12:57:09) | Download_Success | ex_model1.onnx | 127.0.0.1 | C:\Users\urse\PycharmProjects\untitled\Intelligent_Component_registry
-(20-08-03 12:57:58) | Download_Success | ex_model3.onnx | 127.0.0.1 | C:\Users\urse\PycharmProjects\untitled\Intelligent_Component_registry

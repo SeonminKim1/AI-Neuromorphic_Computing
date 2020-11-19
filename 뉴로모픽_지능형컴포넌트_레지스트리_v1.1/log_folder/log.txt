@@ -1,2 +1,0 @@
-(20-08-04 15:53:13) | Upload_Success      | rf_iris.onnx | 127.0.0.1 | C:\Users\urse\PycharmProjects\untitled\Intelligent_Component_registry
-(20-09-03 16:03:52) | Upload_Success      | Random_Forest_mnist.onnx | 127.0.0.1 | C:\Users\urse\PycharmProjects\untitled\Intelligent_Component_registry
